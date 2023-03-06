@@ -66,7 +66,7 @@ def cv_error(x_train,y_train,k, method = 'OLS', alpha = 1):
     coefs_dataframe.columns = list(x_train.columns)
     return coefs_dataframe, rmse_cv
 
-
+# no se un coño
 def early_stop(X_train, y_train, alphas, tol = 0.1, estimator = 'OLS'):
 
     cv_alphas, coefs_model, cv_err_model = [], [], []
